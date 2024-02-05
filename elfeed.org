@@ -1,0 +1,77 @@
+#+title: Elfeed
+
+* Feeds :elfeed:
+** Computer science :cs:
+**** [[https://morss.it/queue.acm.org/rss/feeds/queuecontent.xml][ACM Queue]]
+**** [[https://spectrum.ieee.org/feeds/feed.rss][IEEE Spectrum]]
+**** [[https://morss.it/jvns.ca/atom.xml][Julia Evans]]
+**** [[https://blog.emillon.org/rss.xml][Enter the void *]]
+**** [[https://scottaaronson.blog/?feed=rss2][Shtetl-Optimized]]
+**** [[https://sthbrx.github.io/rss.xml][Store Halfword Byte-Reverse Indexed]]
+**** [[https://jeremykun.com/feed/][Math ∩ Programming]]
+**** [[https://terrytao.wordpress.com/feed/][Terry Tao]]
+**** [[https://blog.mozilla.org/en/feed/][The Mozilla Blog]]
+**** [[http://192.168.1.105:50000/makefulltextfeed.php?url=sec%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fresearch%2Ffeed%2F&max=20&links=preserve&exc=&submit=Create+Feed][Microsoft Research]]
+**** [[https://news.mit.edu/rss/research][MIT Research]]
+
+*** Compilers :compiler:
+**** [[http://192.168.1.105:50000/makefulltextfeed.php?url=sec%3A%2F%2Fblog.regehr.org%2Ffeed&max=20&links=preserve&exc=&submit=Create+Feed][Embedded in Academia]]
+
+*** Security :security:
+**** [[https://morss.it/https://www.bleepingcomputer.com/feed/][BleepingComputers]]
+**** [[http://192.168.1.105:50000/makefulltextfeed.php?url=sec%3A%2F%2Fwww.darkreading.com%2Frss.xml&max=20&links=preserve&exc=&submit=Create+Feed][Dark Reading]]
+**** [[https://krebsonsecurity.com/feed/][Krebs on Security]]
+**** [[https://www.schneier.com/feed/atom/][Schneier on Security]]
+**** [[https://securelist.com/feed/][Kaspersky Securelist]]
+**** [[https://feeds.feedburner.com/feedburner/Talos][Cisco Talos Blog]]
+**** [[https://morss.it/nakedsecurity.sophos.com/feed][Naked Security]]
+**** [[https://morss.it/threatpost.com/feed][Threatpost]]
+
+*** Privacy
+**** [[https://www.eff.org/rss/updates.xml][EFF Deeplinks]]
+**** [[https://citizenlab.ca/feed/][Citizen Labs]]
+
+*** Linux :linux:foss:
+**** [[https://morss.it/https://xeiaso.net/blog.rss][Xe's Blog]] :nix:
+**** [[https://morss.it/phoronix.com][Phoronix]]
+**** [[https://weekly.nixos.org/feeds/all.rss.xml][NixOS]]
+**** [[https://morss.it/lwn.net/headlines/rss][LWN.net]]
+**** [[https://planet.gentoo.org/universe/atom.xml][Gentoo Universe]]
+**** [[https://morss.it/https://planet.gentoo.org/atom.xml][Planet Gentoo]]
+**** [[https://voidlinux.org/atom.xml][Void news]]
+
+** OSINT :osint:
+*** [[http://192.168.1.105:50000/makefulltextfeed.php?url=sec%3A%2F%2Fwww.bellingcat.com%2Ffeed&max=20&links=preserve&exc=&submit=Create+Feed][bellingcat]]
+*** [[https://morss.it/https://inteltechniques.com/blog/][IntelTechniques]]
+
+** Technology :tech:
+**** [[News ][Ars Technica]]
+**** [[https://morss.it/https://hnrss.org/frontpage][Hacker News]]
+**** [[https://morss.it/https://lobste.rs/rss][Lobsters]]
+**** [[https://pluralistic.net/feed/][Pluralistic]]
+
+** Emacs :emacs:
+*** [[https://sachachua.com/blog/feed/atom/][Sacha Chua's Blog]]
+*** [[https://planet.emacslife.com/atom.xml][Planet Emacslife]]
+*** [[https://karthinks.com/index.xml][Karthinks]]
+** Science :science:
+**** [[https://morss.it/https://api.quantamagazine.org/feed/][Quanta Magazine]]
+**** [[https://morss.it/https://www.technologyreview.com/topnews.rss][MIT Technology Review]]
+**** [[http://morss.it/rss.sciam.com/ScientificAmerican-Global][Scientific American]]
+**** [[https://morss.it/https://www.symmetrymagazine.org/feed][symmetry magazine]]
+
+** Philosophy :philosophy:
+*** [[https://rychappell.substack.com/feed][Good Thoughts]]
+*** [[https://m-phi.blogspot.com/feeds/posts/default][M-Phi]]
+*** [[https://sprachlogik.blogspot.com/feeds/posts/default][Sprachlogik]]
+*** [[http://192.168.1.105:50000/makefulltextfeed.php?url=sec%3A%2F%2Fplato.stanford.edu%2Frss%2Fsep.xml&max=20&links=preserve&exc=&submit=Create+Feed][Stanford Encyclopedia of Philosophy]]
+*** [[https://morss.it/https://philosophyofbrains.com/feed][The Brains Blog]]
+
+** Research papers :papers:
+**** [[https://morss.it/http://rss.sciencedirect.com/publication/science/01674048][AIS SIGSEC Computers & Security]]
+**** [[https://morss.it/http://link.springer.com/search.rss?facet-content-type=Article&facet-journal-id=10207&channel-name=International+Journal+of+Information+Security][International Journal of Information Security]]
+**** [[https://morss.it/http://rss.sciencedirect.com/publication/science/26662817][ScienceDirect Publication: Forensic Science International: Digital Investigation]]
+**** [[https://morss.it/http://rss.sciencedirect.com/publication/science/22142126][ScienceDirect Publication: Journal of Information Security and Applications]]
+**** [[https://academic.oup.com/rss/site_5188/advanceaccess_3053.xml][Journal of Cybersecurity Advance Access]]
+**** [[https://morss.it/http://export.arxiv.org/api/query?search_query=cat:cs.CR&start=0&max_results=300&sortBy=submittedDate&sortOrder=descending][ArXiv Cryptography and Security]]
+**** [[https://export.arxiv.org/api/query?search_query=cat:cs.OS&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending][ArXiv OS]]
