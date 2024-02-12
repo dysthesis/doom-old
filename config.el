@@ -40,10 +40,13 @@
               '(org-verbatim :foreground "LightGreen")
               '(org-quote :family "Lato" :height 1.0 :slant italic)
               '(org-time-grid :foreground "#ffffff")
-              '(org-document-title :height 2.0 :foreground "#ffffff" :weight heavy)))
+              '(org-document-title :height 2.0 :foreground "#ffffff" :weight heavy)
+              '(org-block :background "#000000")
+              '(org-block-begin-line :background "#1f1f1f" :foregorund "#eeeeee")
+              '(org-block-end-line :background "#1f1f1f" :foregorund "#eeeeee")))
 
 (custom-set-faces!
-  '(hl-line :underline nil))
+  '(hl-line :underline nil :background "#2f2f2f"))
 
 (use-package mixed-pitch
   :hook
@@ -285,9 +288,9 @@
 
 (global-org-modern-mode)
 
-(use-package org-modern-indent
- :config ; add late to hook
- (add-hook 'org-mode-hook #'org-modern-indent-mode 90))
+;; (use-package org-modern-indent
+;;  :config ; add late to hook
+;;  (add-hook 'org-mode-hook #'org-modern-indent-mode 90))
 
 (after! org-agenda
   (setq org-agenda-skip-scheduled-if-done t
@@ -1163,3 +1166,7 @@
       :ne "C-S-v" #'yank)
 
 (setq-default shell-file-name (executable-find "dash"))
+
+(use-package! pinentry
+    :init (setq epg-pinentry-mode `loopback)
+	  (pinentry-start))
