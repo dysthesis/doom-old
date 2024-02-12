@@ -41,6 +41,7 @@
   - [[#aggressive-indent-mode][Aggressive indent mode]]
   - [[#better-copy-paste-keybinds][Better copy-paste keybinds]]
   - [[#default-shell][Default shell]]
+  - [[#pinentry][Pinentry]]
 
 * Appearance
 ** Dashboard
@@ -1511,4 +1512,11 @@ Automatically keep code properly indented and aligned, more agressive than elect
 ** Default shell
 #+begin_src emacs-lisp
 (setq-default shell-file-name (executable-find "dash"))
+#+end_src
+
+** Pinentry
+#+begin_src emacs-lisp
+(use-package! pinentry
+    :init (setq epg-pinentry-mode `loopback)
+	  (pinentry-start))
 #+end_src

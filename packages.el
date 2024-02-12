@@ -2,6 +2,7 @@
 ;;; $DOOMDIR/packages.el
 
 (unpin! apheleia)
+(package! pinentry)
 (package! preview-dvisvgm)
 (package! rainbow-mode)
 (package! catppuccin-theme)
