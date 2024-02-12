@@ -137,7 +137,7 @@ emacs-lisp        ; drown in parentheses
 (lua +lsp)               ; one-based indices? one-based indices
 markdown          ; writing docs for people to ignore
 ;;nim               ; python + lisp at the speed of c
-;; (nix +tree-sitter +lsp)               ; I hereby declare "nix geht mehr!"
+(nix +tree-sitter +lsp)               ; I hereby declare "nix geht mehr!"
 ;;ocaml             ; an objective camel
 (org +roam2 +noter +journal)               ; organize your plain life in plain text
 ;;php               ; perl's insecure younger brother
@@ -160,7 +160,7 @@ markdown          ; writing docs for people to ignore
 ;;terra             ; Earth and Moon in alignment for performance.
 ;;web               ; the tubes
 ;;yaml              ; JSON, but readable
-;;zig               ; C, but simpler
+;;zig               ; C, but simpl
 
        :email
        ;;(mu4e +org +gmail)
