@@ -102,13 +102,16 @@ See =C-h v doom-font= for documentation and more examples of what they accept.
               '(org-verbatim :foreground "LightGreen")
               '(org-quote :family "Lato" :height 1.0 :slant italic)
               '(org-time-grid :foreground "#ffffff")
-              '(org-document-title :height 2.0 :foreground "#ffffff" :weight heavy)))
+              '(org-document-title :height 2.0 :foreground "#ffffff" :weight heavy)
+              '(org-block :background "#000000")
+              '(org-block-begin-line :background "#1f1f1f" :foregorund "#eeeeee")
+              '(org-block-end-line :background "#1f1f1f" :foregorund "#eeeeee")))
 #+end_src
 
 *** No underline for hl-line
 #+begin_src emacs-lisp
 (custom-set-faces!
-  '(hl-line :underline nil))
+  '(hl-line :underline nil :background "#2f2f2f"))
 #+end_src
 
 *** Mixed pitch
@@ -406,9 +409,9 @@ Make some quick shortcuts
 
 *** Org-modern-indent :inactive:
 #+begin_src emacs-lisp
-(use-package org-modern-indent
- :config ; add late to hook
- (add-hook 'org-mode-hook #'org-modern-indent-mode 90))
+;; (use-package org-modern-indent
+;;  :config ; add late to hook
+;;  (add-hook 'org-mode-hook #'org-modern-indent-mode 90))
 #+end_src
 
 ** Org-agenda
